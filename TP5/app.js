@@ -21,3 +21,20 @@ let nombrealumna = 'luisana'
 let apellidoalumna = 'tolosa'
 let edad = 14
 console.log ("la alumna es" + nombrealumna + apellidoalumna)
+
+let precio1= 100
+let precio2= 200
+let precio3= 300
+let total= precio1+precio2+precio3
+console.log ("el total es" + total)
+
+let comidafavorita = "pizza"
+let colorfavorito = "azul"
+let numerofavorito = 15
+  
+console.log ("mi comida favorita es"+ comidafavorita+ "mi color favorito es" + colorfavorito + "mi numero favorito es" + numerofavorito)
+ 
+let pais = "argentina"
+console.log(pais)
+let pais = "brasil"
+console.log (brasil)
