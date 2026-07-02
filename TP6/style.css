@@ -2,24 +2,26 @@ body{
     background-color: rgb(144, 144, 221);
     color: cornsilk;
     font-family: arial ;
-    width: 450px;
     height: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: column;
+    justify-content:column;
     align-items: center;
 }
 
 div{
     display:flex;
-    width: 100px;
+    width: 500px;
+    height: 37px;
    justify-content: space-between;
-  
+
 }
 
 p{
 font-size: 20px;
 color: darkgreen;
+width: 310px;
+ 
 }
 
 button{
@@ -27,7 +29,8 @@ button{
     color: khaki;
     padding: 5px;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
+  ;
    
 }
 
