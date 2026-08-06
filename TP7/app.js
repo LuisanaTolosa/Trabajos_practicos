@@ -10,3 +10,29 @@ botonej1.onclick = function (){
     }
 
 }
+
+
+let NombredeUsuario = document.querySelector ('#NombreUsuario')
+let botonNombre = document.querySelector ('#botonNombre')
+botonNombre.onclick = function (){
+
+//botonNombre = 'resultado'
+if (NombredeUsuario == 'Nahuel'){ 
+    botonNombre.textContent = 'Bienvenido Nahuel, ¿como estas?'
+} else{
+    botonNombre.textContent !='bienvenido usuario'
+}
+
+}
+let NombredeUsuario = document.querySelector ('#NombreUsuario')
+let botonNombre = document.querySelector ('#botonNombre')
+botonNombre.onclick = function (){
+
+//botonNombre = 'resultado'
+if ((NombredeUsuario == "nahuel") (NombredeUsuario == "marcos")){ 
+    botonNombre.textContent = "bienvenido" + NombredeUsuario + "¿como estas?"
+} else{
+    botonNombre.textContent !="bienvenido usuario"
+}
+
+}
