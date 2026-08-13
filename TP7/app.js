@@ -29,10 +29,38 @@ let botonNombre = document.querySelector ('#botonNombre')
 botonNombre.onclick = function (){
 
 //botonNombre = 'resultado'
-if ((NombredeUsuario == "nahuel") (NombredeUsuario == "marcos")){ 
+if ((NombredeUsuario == "nahuel") || (NombredeUsuario == "marcos")){ 
     botonNombre.textContent = "bienvenido" + NombredeUsuario + "¿como estas?"
 } else{
     botonNombre.textContent !="bienvenido usuario"
 }
 
+}
+
+
+
+let numero = document.querySelector ('numero pnc')
+let botonnombre = document.querySelector ('botonnumero')
+botonnombre.onclick = function (){
+     
+    if ( numero > 0 ) {
+    botonnombre.textContent = 'el numero es positivo'
+  }else if( numero < 0){
+      
+      botonnombre.textContent = 'el numero es negativo'
+  } else {
+      
+      botonnombre.textContent = 'el numero es cero'
+  }
+
+   
+}
+
+
+
+let edad = document.querySelector ('edad')
+let botonedad = document.querySelector ('botonedad')
+botonedad.onclick = function (){
+
+    
 }
