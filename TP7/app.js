@@ -12,7 +12,7 @@ botonej1.onclick = function (){
 }
 
 
-let NombredeUsuario = document.querySelector ('#NombreUsuario')
+let NombredeUsuario = document.querySelector ('#NombredeUsuario')
 let botonNombre = document.querySelector ('#botonNombre')
 botonNombre.onclick = function (){
 
@@ -24,7 +24,7 @@ if (NombredeUsuario == 'Nahuel'){
 }
 
 }
-let NombredeUsuario = document.querySelector ('#NombreUsuario')
+let NombreUsuario2 = document.querySelector ('#NombreUsuario2')
 let botonNombre = document.querySelector ('#botonNombre')
 botonNombre.onclick = function (){
 
@@ -58,9 +58,31 @@ botonnombre.onclick = function (){
 
 
 
-let edad = document.querySelector ('edad')
+let Edad = document.querySelector ('Edad')
 let botonedad = document.querySelector ('botonedad')
 botonedad.onclick = function (){
+if ((Edad >= 6) && (Edad<= 11)) {
+    Edad.textContent = "La edad corresponde a un niño"
+} else if (( Edad >=12) && (Edad <=18)) {
+Edad.textContent = "la edad corresponde a un adolescente"
+} else if ((Edad >= 19) && (Edad <=26)){
+    Edad.textContent = "la edad corresponde a un adulto"
+} else if (Edad >=60){
+    Edad.textContent = "la edad corresponde a un anciano"
+
+}
 
     
+}
+
+
+let eje7 = document.querySelector ("#eje7")
+let botoneje7 = document.querySelector ("#botoneje7")
+let contrasenia = "123456"
+botoneje7.onclick = function () {
+if (contasenia == "secreto"){
+    eje7.textContent = "acceso consedido"
+} else {
+    eje7.textContent = "acceso directo"
+}
 }
