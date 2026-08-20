@@ -58,8 +58,8 @@ botonnombre.onclick = function (){
 
 
 
-let Edad = document.querySelector ('Edad')
-let botonedad = document.querySelector ('botonedad')
+let Edad = document.querySelector ('#Edad')
+let botonedad = document.querySelector ('#botonedad')
 botonedad.onclick = function (){
 if ((Edad >= 6) && (Edad<= 11)) {
     Edad.textContent = "La edad corresponde a un niño"
