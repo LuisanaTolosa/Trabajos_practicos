@@ -12,3 +12,16 @@ function numeromayor (numero1,numero2)
     return numeromayor
 }
 
+let parrafo2 = document.querySelector ('#p1')
+let boton2 = document.querySelector ('#boton2')
+let input2 = document.querySelector ('#input2')
+
+function numeromenor (numero1,numero2)
+{
+    let numeromenor
+    if (numero1 > numero2)
+    { numeromenor = numero2
+    } else {numeromayor = numero1
+    }
+    return numeromenor
+}
